@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="uf8">
+		<title>C.D. BIEDMA</title>	
+		<link rel = "stylesheet" type = "text/css" href = "style.css" />
+	</head>
+	<body>
+		<header>
+			<a href="index2.html"><img id="log" src="imagenes/logo.jpg"></a>
+			<h1>CENTRO DEPORTIVO BIEDMA</h1>
+			<p id="login">Área personal de <br> Carmen Biedma <a id="salirLog" href="index.html">(salir)</a><p>
+		</header>
+
+		<section id="menuArriba">
+			<nav>
+			<ul id="horiz">
+				<li class="listHor"> <a class="refHor" href="actividades.html">Actividades &nbsp &nbsp</a></li>
+				<li class="listHor"> <a class="refHor" href="horario.html">Horario &nbsp &nbsp</a></li>
+				<li class="listHor"> <a class="refHor" href="tecnicos.html">Técnicos &nbsp &nbsp</a></li>
+				<li class="listHor"> <a class="refHor" href="instalacionesyservicios.html">Instalaciones y servicios &nbsp &nbsp</a></li>
+				<li class="listHor"> <a class="refHor" href="localizacion.html">Localización &nbsp &nbsp</a></li>
+				<li class="listHor"> <a class="refHor" href="precios.html">Precios y promociones &nbsp</a></li>
+				<li class="listHor"> <a class="refHor" id="actual" href="alta.html">Alta de usuarios &nbsp &nbsp</a></li>
+				<li class="listHor"> <a class="refHor" href="foro.html">Foro &nbsp &nbsp</a></li>
+			</ul>
+			</nav>
+		</section>
+				
+		<section id="sformAlta">
+
+			<form id="formAlta" method="post">
+				<h2 id="titForm"> FORMULARIO PARA EL ALTA DE USUARIOS </h2>
+
+				<fieldset>
+
+					<legend class="leyenda">DATOS PERSONALES</legend>
+					<label for="nuser">Nombre de usuario</label>
+					<input class="inAlta" type="text" name="nuser" required="true">
+					<br><br>
+
+					<label for="correo">Correo electrónico</label>
+					<input class="inAlta" type="email" name="correo" required="true">
+					<br><br>
+
+					<label for="contraseña">Contraseña (min 8 caract)</label>
+					<input class="inAlta" type="password" name="contraseña" minlength="8" required="true">
+					<br><br>
+
+					<label for="nombre">Nombre</label>
+					<input class="inAlta" type="text" name="nombre" required="true">
+					<br><br>
+
+					<label for="apellidos">Apellidos</label>
+					<input class="inAlta" type="text" name="apellidos" required="true">
+
+					<br><br>
+					<label for="Sexo">Sexo:</label>
+					<label>M</label>
+					<input type="radio" name="Sexo" value="M" checked="true">
+
+					<label>F</label>
+					<input type="radio" name="Sexo" value="F">
+
+					<label for="fecha">  &nbsp &nbsp  &nbsp  &nbsp  &nbsp Fecha de nacimiento</label>
+					<input type="date" name="fecha" required="true">
+					<br><br>
+					<label for="direccion">Direccion</label>
+					<input class="inAlta" type="text" name="direccion" required="true">
+					<br><br>
+
+					<label for="provincia">Provincia</label>
+					<select name="provincia" size="3">
+					  <option value="Almeria">Almeria</option>
+					  <option value="Cadiz">Cadiz</option>
+					  <option value="Cordoba">Cordoba</option>
+					  <option value="Granada">Granada</option>
+					  <option value="Huelva">Huelva</option>
+					  <option value="Jaen">Jaen</option>				  
+					  <option value="Malaga">Malaga</option>				  
+					  <option value="Sevilla">Sevilla</option>				  
+					</select>
+
+					<label for="telefono">&nbsp &nbsp  &nbsp  &nbspTelefono</label>
+					<input type="tel" name="telefono" required="true">
+					<br><br>
+					<label for="foto">Adjunte una foto de carnet (formato png)</label>
+					<input type="file" name="archivo" required="true" accept=".png" />
+					<br><br>
+
+			
+				</fieldset>
+				<br>
+				<fieldset>
+				
+				<legend class="leyenda">DATOS ADICIONALES</legend>
+
+				<label for="colorPulsera">Color del que le gustaría que fuese su pulsera de acceso al gimnasio</label>
+				<input class="inAlta" type="color" name="colorPulsera">
+				<br><br>
+				<label for="ducha">¿Se duchará en el gimnasio?</label>
+				<label>Sí</label>
+				<input type="radio" name="Ducha" value="Si" checked="yes">
+				<label>No</label>
+				<input type="radio" name="Ducha" value="No">
+				<label>A veces</label>
+				<input type="radio" name="Ducha" value="av">
+				
+				<label for="tarifa">&nbsp &nbsp  &nbsp  &nbspTarifa</label>
+					<select name="tarifa">
+					  <option value="basica (24,99€)">Basica  (24,99€)</option>
+					  <option value="completa">Completa (28,99€)</option>
+					  <option value="premium">Premium (35,99)</option>
+					</select>
+				<a href="precios.html" target="_blank"><img id="infoTar" src="imagenes/info.png"></a>
+				<br><br>
+
+				<label for="ncuenta">Numero de cuenta</label>
+				<input class="inAlta" type="text" name="ncuenta" minlength="20" maxlength="20">
+				<br><br>
+
+				<label for="satisfaccion">Si ha estado en el centro antes, ¿cual es su nivel de satisfaccion?(0-10)</label>
+				<input type="range" name="satisfaccion" list="valores" min="0" max="10">
+
+				<datalist id="valores">
+				  <option value="0">
+				  <option value="1">
+				  <option value="2">
+				  <option value="3">
+				  <option value="4">
+				  <option value="5">
+				  <option value="6">
+				  <option value="7">
+				  <option value="8">
+				  <option value="9">
+				  <option value="10">
+				</datalist>
+				<br><br>
+				<label for="enfermedad">Si tiene alguna enfermedad o lesión que debamos conocer, por favor escribala en el cuadro de texto lo más detalladamente posible</label>
+				<br>
+				<textarea name="enfermedades" rows="4" cols="40" placeholder="Escriba aqui..."></textarea>
+				<br><br>
+				</fieldset>
+
+				<input type="checkbox" name="politicas" required="true">
+				<label for="politicas">Acepto las Condiciones del servicio y la Politica de privacidad del centro deportivo</label>
+
+				<br><br>
+				<input type="reset" value="Borrar">
+				<input type="submit" value="Terminar y enviar">
+
+			</form>
+			
+		</section>
+
+		<footer id="footAlta">
+			<a class="f" href="contacto.html">Contacto - </a>
+
+			<a class="f" href="como_se_hizo.pdf">Cómo se hizo</a>
+		</footer>
+	</body>
+</html>

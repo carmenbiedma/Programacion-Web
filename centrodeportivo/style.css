@@ -1,0 +1,588 @@
+/*_______________INDEX______________*/
+
+body{
+	background-color: 	#DEB887;
+}
+
+header{
+	background-color: white;
+}
+
+#log{
+	margin-top: 1%;
+	margin-left: 2%;
+}
+
+h1{
+	position: absolute;
+	top: 4%;
+	left: 25%;
+	color: #DEB887;
+	font-size: 4em;
+	font-family: Tw Cen MT;
+}
+
+#login{
+	position:absolute;
+	right: 5%;
+	top:8%;
+	font-size: 18px;
+	background-color: white;
+	color: #DEB887;
+}
+
+h2{
+	color: #5F9EA0;
+}
+
+form{
+	position: absolute;
+	top: 0.5%;
+	right: 3%;
+}
+
+label{
+	color: #5F9EA0
+}
+
+section{
+	background-color: white;
+}
+
+#aux{
+	height: 100%;
+	background-color: black;
+	width: 100%;
+}
+
+#izda{
+	width: 48.5%;
+	position: absolute;
+	left: 0.6%;
+}
+
+#dcha{
+	width: 50%;
+	position: absolute;
+	right: 0.5%; 
+}
+
+#izda, #dcha{
+	top: 28%;
+	height: 80%;
+
+}
+
+#imgizda{
+	position:absolute;
+	width: 100%;
+	height: 100%;
+}
+
+ul{
+
+	text-align:center;
+	list-style-type: none;
+}
+
+a:link{
+	text-decoration: none;
+	color: #DEB887;
+	font-size: 3.5em;
+
+}
+a:visited{
+	text-decoration: none;
+	color:#DEB887;
+
+}
+
+a:hover{
+	color: #5F9EA0;
+}
+
+
+
+
+footer{
+	background-color: #5F9EA0;
+	align-content: center;
+	position: absolute;
+	bottom: -14%;
+	width: 99%;
+	height: 5%;
+	text-align: center;
+}
+
+.f:link{
+
+	font-size: 2em;
+}
+
+.f:hover{
+	color:white;
+}
+
+#salirLog:link{
+	font-size: 10px;
+}
+
+/*_______________ACTIVIDADES______________*/
+
+#izdaa{
+	width: 58.5%;
+	position: absolute;
+	left: 0.6%;
+	overflow:scroll;
+}
+
+#dchaa{
+	width: 40%;
+	position: absolute;
+	right: 0.6%; 
+}
+
+#izdaa, #dchaa{
+	top: 34.5%;
+	height: 80%;
+
+}
+
+#menuArriba{
+	width: 99%;
+	position:absolute;
+	top: 28.2%;
+	height: 5.5%;
+}
+
+#horiz{
+	position: absolute;
+	bottom: 6px;
+	background-color: white;
+	height: 12px;	
+}
+.listHor{
+
+	float: left;
+}
+
+.refHor:link{
+	font-size: 1.7em;
+
+}
+
+#actual{
+	color:#5F9EA0;
+}
+
+.act{
+
+	height: 30%;
+	width: 98%;
+	background-color: #5F9EA0;
+	float:left;
+	border-style: solid;
+	border-width: 10px;
+	border-color: white;
+
+
+}
+
+
+.titAct{
+	margin-left: 40%;
+	margin-top: 2%;
+	font-size: 30px;
+	color: white;
+
+}
+
+
+.actImg{
+
+	margin-left: 2%;
+	margin-top: 3%;
+	width: 10%;
+	float: left;
+
+}
+
+.refAct:link{
+	
+	font-size: 20px;
+	margin-left: 20%;
+	color:white;
+}
+
+.refAct:hover{
+	color:white;
+}
+
+#titNot{
+	margin-left: 20%;
+	font-size: 40px;
+}
+
+h4{
+	color: #3B240B;
+	margin-left: 7%;
+	font-size: 30px;
+}
+
+.contNoticia{
+	margin-left: 3%;
+}
+
+.noticias{
+	background-color: #F2F2F2;
+	width: 96%;
+	margin-left: 2%;
+}
+
+#noticiaSat{
+	width: 30%;
+	height: 10%;
+}
+/*_______________PAGINA DE CADA ACTIVIDAD___________*/
+
+.tituloPagAct{
+
+	margin-left: 40%;
+	color: #5F9EA0;
+	font-size: 40px;
+}
+
+.fotoPagAct{
+
+	width: 80%;
+	background-color: black;
+	margin-left: 10%;
+	height: 40%;
+	color:white;
+	margin: solid;
+	margin-top: 1%;
+	text-align: center;
+}
+
+.descPagAct{
+
+	width: 80%;
+	background-color: black;
+	margin-left: 10%;
+	height: 40%;
+	color:#5F9EA0;
+	margin: solid;
+	margin-top: 6%;
+	
+	background-color: white; 
+	font-size: 20px;
+}
+
+#izdaaAct{
+
+	width: 58.5%;
+	position: absolute;
+	left: 0.6%;
+	top: 35.5%;
+	height: 150%;
+
+}
+
+#footAct{
+	position:absolute;
+	bottom: -22%;
+}
+
+#dchaaInd{
+	overflow:scroll;
+	width: 40%;
+	position: absolute;
+	right: 0.6%; 
+	height: 100%;
+	top:35.5%;
+}
+
+/*_______________TECNICOS______________*/
+
+.stec{
+	float:left;
+	background-color: white;
+	height: 40%;
+	width: 20%;
+	margin-top: 4%;
+	margin-left: 2%;
+	border-style: solid;
+	border-left-width: 80px;
+	border-right-width: 80px;
+	border-color: #DEB887;
+}
+
+.fotosTec{
+
+	width: 30%;
+	margin-left: 35%;
+	margin-top: 3%;
+
+	
+}
+
+.textTec{
+
+	margin-left: 40%;
+	width: 20%; 
+	color: #5F9EA0;
+	font-size: 30px;
+}
+
+/*____________ALTA USUARIOS___________*/
+
+#sformAlta{
+
+	position: absolute;
+	top:35.5%;
+	width: 50%;
+	height: 140%;
+	left: 25%;
+}
+
+#formAlta{
+
+	position: absolute;
+	left: 10%;
+
+}
+
+.inAlta{
+	width: 70%;
+}
+
+.leyenda{
+
+	color: #DEB887;
+
+}
+
+#infoTar{
+	width: 3%;
+	height: 3%;
+}
+
+#footAlta{
+	position: absolute;
+	bottom: -82%
+}
+/*____________HORARIO___________*/
+
+#hor{
+
+	position: absolute;
+	top:35.5%;
+	width: 50%;
+	height: 70%;
+	left: 25%;
+	background-color: white;
+	border-color: #5F9EA0;
+	align-content: center;
+}
+
+#dias,.horas{
+	color:#DEB887; 
+	background-color: #5F9EA0;
+}
+
+
+/*____________PRECIOS___________*/
+
+#precios{
+
+	position: absolute;
+	top:35.5%;
+	width: 90%;
+	height: 70%;
+	left: 5%;
+	background-color: white;
+	border-color: #5F9EA0;
+}
+
+
+/*____________LOCALIZACIÓN___________*/
+
+#mapa{
+	position: absolute;
+	height: 80%;
+	top: 10%;
+	left: 30%;
+}
+
+/*_____________FORO________________*/
+
+#titForo{
+	font-size: 40px;
+	position: absolute;
+	left: 34%;
+	color: #5F9EA0;
+}
+
+#foro{
+	position: absolute;
+	top:10%;
+	width: 80%;
+	left: 10%;
+	font-size: 20px;
+}
+
+#campos{
+	background-color: #5F9EA0;
+}
+
+.hilos{
+	background-color: #DEB887;
+}
+
+#añadirTema{
+	position: absolute;
+	top:80%;
+	width: 85%;
+	left: 7%;
+}
+
+#desc{
+	width: 60%;
+}
+
+.autor{
+	width: 11%;
+	height: 13%;
+}
+
+#for{
+	position: absolute;
+	top:35.5%;
+	width: 90%;
+	height: 110%;
+	left: 5%;
+	background-color: white;
+}
+
+#fForo{
+	top:147%;
+}
+
+.icResp{
+	width: 40%;
+	height: 7%;
+}
+
+.r{
+	width: 8%;
+}
+
+.linkHilos:link{
+	color: black;
+	font-size: 20px;
+}
+
+.linkHilos:visited{
+	color:black;
+}
+.linkHilos:hover{
+	color: white;
+}
+
+
+
+#añadirRespuesta{
+	top:30%;
+	left:10%;
+	right: 10%;
+}
+
+/*____________Responsive______*/
+@media(max-width:480px){
+
+	h1{
+		margin-left: 1%;
+		font-size: 18px;
+	}
+
+	#log{
+		width: 20%;
+		height: 10%;
+	}
+
+	#login{
+		top:4%;
+		font-size: 10px;
+	}
+
+	#navHor{
+		width: 96.5%;
+	}
+	#horiz{
+		width: 90%;
+	}
+
+	#menuArriba{
+		top:14%;
+		width: 96.5%;
+	}
+
+	.refHor:link{
+		font-size: 1em;
+	}
+
+	#izdaa{
+		left:1.7%;
+		width: 96.5%;
+		top:20%;
+		height: 50%;
+	}
+	#dchaa{
+		right:1.7%;
+		width: 97%;
+		top:71%;
+		height: 55%;
+	}
+
+	.act{
+		height: 25%;
+		width: 96%;
+	}
+
+	.titAct{
+		font-size: 20px;
+	}
+
+	.refAct:link{
+		font-size: 12px;
+
+	}
+	.noticias{
+		height: 35%;
+		width: 90%;
+	}
+	h4{
+		font-size:15px;
+	}
+
+	.contNoticia{
+		font-size: 12px;
+	}
+
+	#titNot{
+		font-size: 30px;
+	}
+	#noticiaSat{
+		height: 50%;
+	}
+
+	footer{
+		width: 97%;
+		top:127%;
+	}
+
+	.f:link{
+		font-size: 15px;
+	}
+}
+
